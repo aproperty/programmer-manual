@@ -1,0 +1,19 @@
+
+```sql
+SELECT NOW(); -- 获取当前时间  
+SELECT NOW() - INTERVAL 72 HOUR; -- 获取三天前的时间
+
+-- 时间格式化
+SELECT DATE_FORMAT(NOW(), '%Y-%m-%d')
+SELECT DATE_FORMAT('2018-01-15 09:45:16', '%Y-%m-%d');
+
+
+SELECT FROM_UNIXTIME(1515980716);                      -- 时间戳转时间
+SELECT FROM_UNIXTIME(1515980716, '%Y-%m-%d %H:%i:%S'); -- 时间戳格式化
+
+SELECT TIMESTAMPDIFF(SECOND, (NOW() - INTERVAL 1 HOUR), NOW());
+
+SELECT UNIX_TIMESTAMP();
+SELECT UNIX_TIMESTAMP(NOW());
+SELECT UNIX_TIMESTAMP('2018-01-15 09:45:16'); -- 时间转时间戳
+```
