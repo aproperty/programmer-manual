@@ -1,2 +1,1 @@
 # programmer-manual
-.
