@@ -1,4 +1,5 @@
 
+```
 FROM golang:1.13-alpine AS build
 
 WORKDIR /go/src/github.com/org/repo
@@ -19,3 +20,4 @@ EXPOSE 8000
 
 COPY --from=build /go/src/github.com/org/repo/server /server
 CMD ["/server"]
+```
