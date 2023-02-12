@@ -12,7 +12,7 @@
 
 
 
-<br><br>
+
 
 `apt-get install aptitude`  
 `aptitude install <package-name>`  
