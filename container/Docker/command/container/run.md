@@ -13,9 +13,12 @@ docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 -i                  Keep STDIN open      even if not attached
 -t	 	            Allocate a pseudo-TTY
+
     --name	        Assign a name to the container
+
 -d  --detach 		Run container in background and print container ID
 -p  --publish 		Publish a container's port(s) to the host
 -e  --env	    	Set environment variables
+
     --rm	       	Automatically remove the container when it exits
 ```
