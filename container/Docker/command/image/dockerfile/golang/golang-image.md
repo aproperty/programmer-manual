@@ -2,7 +2,7 @@
 ## Start a Go instance in your app
   
 
-```
+```dockerfile
 FROM golang:1.8
 
 WORKDIR /go/src/app

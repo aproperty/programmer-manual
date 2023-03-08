@@ -1,5 +1,5 @@
 
-```
+```dockerfile
 FROM golang:1.13-alpine AS build
 
 WORKDIR /go/src/github.com/org/repo
