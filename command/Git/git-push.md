@@ -7,3 +7,9 @@
 `git push origin –delete newBranch` 
 在远程端删除一个分支，分支名前的冒号代表删除。
 注意删除远程分支后，如果有对应的本地分支，本地分支并不会同步删除！ 
+
+
+The current branch feature/cyh-04-07 has no upstream branch.    
+To push the current branch and set the remote as upstream, use    
+`git push --set-upstream origin feature/xxxxx`   
+
