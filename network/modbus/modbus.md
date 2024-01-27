@@ -8,7 +8,7 @@ Function codes:
 * Read          holding registers (0x03)    读取 保持寄存器（可读可写寄存器）
   Read Multiple Holding Registers                                     
 
-* Read input   registers (0x04)             读取 输入寄存器（只读寄存器）   
+* Read          input   registers (0x04)             读取 输入寄存器（只读寄存器）   
 
 
 
