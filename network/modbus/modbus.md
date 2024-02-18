@@ -19,11 +19,11 @@ Function codes:
 
 
 
-discrete inputs               1位，只读    
-coils                         1位，读写    
+discrete inputs                1位，只读    I/O 系统 提供 这种类型数据   
+coils                          1位，读写    通过应用程序改变这种类型数据   
 
-输入寄存器（input   registers）：16位，只读   
-保持寄存器（holding registers）：16位，读写   
+输入寄存器（input   registers）：16位，只读    I/O 系统 提供 这种类型数据
+保持寄存器（holding registers）：16位，读写    通过应用程序改变这种类型数据     
 
 
 
